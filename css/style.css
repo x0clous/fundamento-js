@@ -1,0 +1,48 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing:inherit;
+}
+body{
+     font-family: "Momo Signature", cursive;
+}
+.mt-2{
+    margin-top:2 rem;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    max-width: 600px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0 0.1rem;
+    border-radius: 0.5em;
+}
+.btn-primary{
+    color:white;
+    background-color:blueviolet;
+}
+.btn-secundary{
+    color:white;
+    background-color: #2a9d8f;
+}
+.btn-danger{
+    color:black;
+    background-color:red;
+}
+.btn-info{
+    color:black;
+    background-color:rgb(198, 170, 28);
+}
+.btn-success{
+    color:black;
+    background-color:rgb(137, 196, 136);
+}
