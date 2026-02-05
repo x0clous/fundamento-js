@@ -16,7 +16,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 95%;
-    max-width: 600px;
+    max-width: 1000px;
 }
 .btn{
     display: inline-block;
@@ -45,4 +45,40 @@ body{
 .btn-success{
     color:black;
     background-color:rgb(137, 196, 136);
+}
+.logo{
+    display: block;
+    text-decoration: none;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    background-color:black;
+}
+.card{
+    width: 300px;
+    background-color:#2a9d8f;
+    color: white;
+    overflow: hidden; /*Agrega un scroll automaticamente si el tamaño es más grande*/
+    border-radius: 0.5em;
+}
+.card-img{
+    width: 100%;
+}
+.card-body{
+    padding:1em;
+}
+.card-body h5{
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 700; /*Que tanto quiero de espesor del color del font*/
+}
+.card-body p{
+    font-weight: 300;
+}
+.articulos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
